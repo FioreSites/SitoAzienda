@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	
+		<!-- NavBar section -->
+		<header id="NavBar">
+			<nav class="NavDesktop">
+				<ul id="NavSX">
+					<li><a href="#About">Chi siamo</a></li>
+					<li><a href="#Servizi">Servizi</a></li>
+				</ul>
+				<a href="#" id="NavLOGO"><h1>Logo Azienda</h1></a>
+				<ul id="NavDX">
+					<li><a href="#Contatti">Assistenza</a></li>
+					<li><a href="index-en.html">🇬🇧</a></li>
+				</ul>
+			</nav>
+			<nav class="NavMobile">
+				<div class="NM1">
+					<div class="NML">
+						<div>
+							<a href="#" id="NavLOGO"><h1>Logo Azienda</h1></a>
+						</div>
+						<div>
+							<ul>
+								<li><a href="#About">Chi siamo</a></li>
+								<li><a href="#Servizi">Servizi</a></li>
+								<li><a href="#Contatti">Assistenza</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="NMF">
+						<a href="index-en.html">🇬🇧</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!-- Hero section -->
+		<section id="Hero">
+			<video autoplay muted loop playsinline poster="fallback.jpg">
+				<source src="./img/aaa.mp4" type="video/mp4">
+			</video>
+			<div class="Hcontainer">
+				<div class="HeroScritte">
+					<h1>Il sito web <span class="h1evi">SEMPLICE</span></br>alla portata di <span class="h1evi">TUTTI</span></h1>
+					<h2>Avere un sito web per la propria attività non è mai stato così fondamentale.</br>La tua azienda non ce l'ha? Tranquillo ci pensiamo noi!</h2>
+					<a href="#About" class="Button1">Scopri di più</a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- About section -->
+		<section id="About">
+			<div class="container">
+				<div class="ASScritte">
+					<h1>Chi siamo</h1>
+					<p>Siamo due ragazzi con una grande passione per la programmazione, da cui è nata la nostra piccola società. La nostra missione è aiutare piccole imprese, artigiani e professionisti a crescere online, realizzando siti web su misura.</p>
+					<p>Crediamo che oggi la presenza sul web sia fondamentale, ma non tutti hanno gli strumenti per affrontarla. Per questo offriamo un servizio completo, curato nei minimi dettagli, dall’idea alla pubblicazione.</p>
+					<p>Puntiamo su un rapporto diretto con i clienti, ascoltando le loro esigenze per creare soluzioni semplici ed efficaci. Per noi, la tecnologia deve essere accessibile a tutti.</p>
+				</div>
+				<img src="./img/wallpaper.jpg" alt="Immagine About">
+			</div>
+		</section>
+		
+		<!-- Section with Cards -->
+		<section id="Servizi">
+			<div class="container1">
+				<h1 class="section-heading">Servizi</h1>
+				<div class="cards-grid">
+					<div class="LinkCard">
+						<div class="card">
+							<img src="./img/wallpaper.jpg" alt="Fresh fruits and breakfast">
+							<h3 class="card-title">Creazione Sito Web</h3>
+							<p class="card-text">Realizziamo siti moderni, responsive e su misura per dare alla tua attività un'immagine professionale e affidabile online.</p>
+							<a href="" class="card-prezzi">Scarica i prezzi</a>
+						</div>
+					</div>
+					<div class="LinkCard">
+						<div class="card">
+							<img src="./img/wallpaper.jpg" alt="Tea and drinks">
+							<h3 class="card-title">Gestione Dominio e Sito</h3>
+							<p class="card-text">Ci occupiamo di tutto: dominio, aggiornamenti e supporto tecnico. Tu pensi al tuo lavoro, noi al tuo sito.</p>
+							<a href="" class="card-prezzi">Scarica i prezzi</a>
+						</div>
+					</div>
+					<div class="LinkCard">
+						<div class="card">
+							<img src="./img/wallpaper.jpg" alt="Wine and food">
+							<h3 class="card-title">Mailing List & Newsletter</h3>
+							<p class="card-text">Ti aiutiamo a restare in contatto con i clienti: newsletter efficaci, iscrizioni facili e comunicazione sempre professionale.</p>
+							<a href="" class="card-prezzi">Scarica i prezzi</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- CTA section -->
+		<section id="CTA">
+			<div class="container2">
+				<h1>La tua nuova avventura sul web comincia qui!</h1>
+				<p>Inviaci una mail specificando dettagli e caratteristiche che vorresti avesse il tuo sito e noi procederemo subito a prepararti, senza impegno, il preventivo giusto per te!</p>
+				<a href="#Contatti" class="Button1">Inizia ora</a>
+			</div>
+		</section>
+		
+		<!-- Contatti e orari section -->
+		<section id="Contatti">
+			<div class="container1">
+				<div class="Aiuto">
+					<h1>Bisogno di aiuto?</h1>
+					<h3>Compila questo form, ti risponderemo appena possibile</h3>
+					<form action="salva.php" method="POST">
+						<div class="FDiv"><label>Nome:</label><input type="text" name="nome" placeholder="Es. Mario Rossi" required class="campo"></div>
+						<div class="FDiv"><label>Email:</label><input type="email" name="email" placeholder="Es. nome@esempio.it" required class="campo"></div>
+						<div class="FDiv"><label>Messaggio:</label><textarea name="messaggio" rows="5" placeholder="Es. Ciao, vorrei informazioni su..." required class="campo"></textarea></div>
+						<div style="text-align:center;"><button type="submit" class="Button1">Invia</button></div>
+					</form>
+				</div>
+				<div class="Orari">
+					<h1>Orari</h1>
+					<ul>
+						<li><span class="heading">Lunedì:</span> 10:00 - 18:00</li>
+						<li><span class="heading">Martedì:</span> 10:00 - 18:00</li>
+						<li><span class="heading">Mercoledì:</span> 10:00 - 18:00</li>
+						<li><span class="heading">Giovedì:</span> 10:00 - 18:00</li>
+						<li><span class="heading">Venerdì:</span> 10:00 - 18:00</li>
+						<li><span class="heading">Sabato:</span> chiuso</li>
+						<li><span class="heading">Domenica:</span> chiuso</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<p class="legal"><span class="FH">Logo azienda s.r.l.</span> - via Rambelli, 25 - 48018 Faenza(RA)</br>Cel: 3703160866 - Email: siti.fiorentini@gmail.com</br>C.F./P.IVA 12345678910 - capitale sociale € 1</p>
+			<div class="LegalLinks">
+				<a href="">Privacy policy</a>
+				<a href="">Termini di servizio</a>
+			</div>
+			<p class="copy">&copy 2025 Logo Azienda s.r.l. Tutti i diritti riservati</p>
+		</footer>
+		
+		<script>
+			const header = document.getElementById("NavBar");
+
+	window.addEventListener("scroll", () => {
+	  if (window.scrollY > 0) {
+		header.classList.add("scrolled");
+	  } else {
+		header.classList.remove("scrolled");
+	  }
+	});
+		</script>
+	</body>
+</html>

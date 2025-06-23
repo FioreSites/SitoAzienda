@@ -1,0 +1,452 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'Segoe UI' ,Helvetica, sans-serif;
+	font-size:16px;
+}
+html{
+	scroll-behavior:smooth;
+}
+h2{
+	font-family: Calibri, sans-serif;
+}
+body{
+	background-color:rgba(1,25,45,1);
+}
+#NavBar{
+	text-align:center;
+	display:flex;
+	color:white;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	position:fixed;
+	z-index:1000;
+	transition:all 0.4s;
+}
+#NavBar.scrolled{
+	background-color:rgba(1,25,45,1);
+}
+header h1{
+	color:white;
+	font-size:2rem;
+	font-weight:600;
+	margin-right:auto;
+	margin-left:auto;
+	width:250px;
+}
+header ul{
+	list-style:none;
+	align-content:center;
+	padding:0;
+}
+header a{
+	color:white;
+	text-decoration:none;
+	color:rgba(255,255,255,0.8);
+	transition:all 0.2s;
+}
+header a:hover{
+	color:rgba(255,255,255,1);
+}
+header li{
+	display:inline;
+	padding-left:10px;
+	padding-right:10px;
+}
+.NavDesktop{
+	display:flex;
+	width:100%;
+}
+.NavMobile{
+	display:none;
+}
+#NavLOGO{
+	width:50%;
+}
+#NavSX{
+	margin-left:30px;
+	width:100%;
+	text-align:start;
+}
+#NavDX{
+	margin-right:30px;
+	margin-left:auto;
+	text-align:end;
+	width:100%;
+}
+
+#Hero{
+	width:100%;
+	height:105vh;
+}
+#Hero video{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:-1;
+	object-fit:cover;
+}
+.Hcontainer{
+	width:100%;
+	height:100%;
+	align-content:center;
+}
+.HeroScritte{
+
+	margin:auto;
+	width:75%;
+	color:rgba(255,255,255,0.85);
+	text-align:center;
+}
+#Hero h1{
+	font-size:4rem;
+	line-height:65px;
+	font-weight:400;
+
+}
+#Hero h2{
+	margin-top:60px;
+	margin-bottom:120px;
+	font-size:1.5rem;
+	font-weight:400;
+}
+.h1evi{
+	color:rgba(255,255,255,1);
+	font-size:4rem;
+	font-weight:800;
+}
+.Button1{
+	color:white;
+	background-color:rgba(0,0,0,0);
+	font-size:1.25em;
+	text-decoration:none;
+	border:solid 2px rgba(255,255,255,0.75);
+	border-radius:25px;
+	padding:15px 60px;
+	transition:all 0.2s;
+}
+.Button1:hover{
+	border:solid 2px rgba(88,157,223,1);
+}
+
+#About{
+	color:white;
+	scroll-margin-top:200px;
+}
+.container{
+	width:75%;
+	display:flex;
+	padding-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.ASScritte{
+	width:50%;
+	padding:20px;
+}
+.ASScritte h1{
+	font-size:3em;
+	padding-bottom:20px;
+}
+.ASScritte p{
+	margin-right:10%;
+	font-size:1.25em;
+	padding-top:20px;
+	font-weight:300;
+}
+#About img{
+	width:50%;
+	object-fit:cover;
+	border-radius:25px;
+	margin-right:0;
+	margin-left:auto;
+	box-shadow:0px 1px 30px rgba(88,157,223,1);
+}
+
+/* Servizi */
+#servizi{
+	scroll-margin-top:100px;
+}
+.section-heading {
+	font-size: 3em;
+	font-weight: 700;
+	color: white;
+	padding:20px;
+	margin-bottom:40px;
+}
+.cards-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 32px;
+	margin-bottom: 60px;
+}
+.LinkCard{
+	border-radius:15px;
+	text-decoration:none;
+	padding-bottom:20px;
+	transition:all 0.2s;
+}
+.LinkCard:hover{
+	box-shadow:0px 1px 30px rgba(88,157,223,1);
+}
+.card {
+	background-color:rgba(1,25,48,1);
+	border-radius:15px;
+}
+.card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	margin-bottom:16px;
+}
+.card-title {
+	font-size: 1.25em;
+	font-weight: 700;
+	padding:0 20px;
+	color: white;
+	margin-bottom:15px;
+}
+.card-text {
+	font-size: 16px;
+	color: white;
+	font-weight:200;
+	padding:0px 20px;
+	padding-bottom:20px;
+	line-height: 1.5;
+}
+.card-prezzi{
+	color:white;
+	text-decoration:none;
+	padding:0px 20px;
+	padding-bottom:20px;
+}
+.container1{
+	width:75%;
+	display:inherit;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#CTA{
+	color:white;
+	background-color:rgba(40,103,158,1);
+	padding-top:50px;
+	padding-bottom:70px;
+}
+.container2{
+	width:700px;
+	display:inherit;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#CTA h1{
+	font-size:2em;
+	padding-bottom:20px;
+}
+#CTA p{
+	font-size:1.25em;
+	padding-top:20px;
+	margin-bottom:50px;
+	font-weight:300;
+}
+/* Contatti */
+#Contatti{
+	color:white;
+	display:flex;
+	margin-top:30px;
+	scroll-margin-top:100px;
+}
+.Aiuto{
+	width:100%;
+}
+.Aiuto h1{
+	font-size:3em;
+	padding:20px;
+}
+.Aiuto h3{
+	font-size:1.25em;
+	font-weight:400;
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom:20px;
+}
+.Aiuto form{
+	padding:0 20px;
+}
+.Aiuto label{
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+	justify-content:end;
+}
+.FDiv{
+	display:flex;
+	margin-bottom:10px;
+}
+.campo{
+	width:85%;
+	background-color:rgba(255,255,255,0.1);
+	border-radius:5px;
+	font-size:1rem;
+	border:none;
+	padding:10px;
+	color:white;	
+	margin-right:0;
+	margin-left:auto;
+	resize:none;
+}
+.campo::placeholder{
+	color:rgba(255,255,255,0.5);
+}
+.Aiuto button{
+	margin-top:30px;
+	margin-bottom:10px;
+}
+.Orari{
+	width:30%;
+	min-width:250px;
+	text-align:end;
+}
+.Orari h1{
+	font-size:3em;
+	padding:20px;
+}
+.Orari ul{
+	padding-right:20px;
+	padding-left:0;
+	list-style:none;
+}
+.Orari li{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.heading{
+	font-weight:700;
+	font-size:1.25em;
+}
+
+/*Footer*/
+footer{
+	margin-top:30px;
+	text-align:center;
+	color:white;
+	background-color:rgba(1,14,26,1);
+}
+.legal{
+	padding-top:50px;
+	padding-bottom:20px;
+	font-size:1.05rem;
+	line-height:25px;
+}
+.FH{
+	font-weight:700;
+	font-size:1.2rem;
+}
+.copy{
+	padding-bottom:15px;
+	margin-bottom:0;
+	margin-top:auto;
+	color:rgba(255,255,255,0.75);
+}
+.LegalLinks{
+	padding-bottom:50px;
+}
+.LegalLinks a{
+	color:rgba(255,255,255,1);
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+}
+.LegalLinks a:hover{
+	text-decoration:underline;
+}
+@media screen and (max-width: 1043px) {
+	.container1{
+		display:block;
+	}
+	.Orari{
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+	}
+	.Orari ul{
+		padding-right:0;
+	}
+	.Orari h1{
+		
+	}
+}
+
+@media screen and (max-width: 867px) {
+	*{
+		font-size:14px;
+	}
+	.NavDesktop{
+		display:none;
+	}
+	.NavMobile{
+		display:block;
+		width:100%;
+	}
+	.NM1{
+		display:flex;
+	}
+	.NML{
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.NMF{
+		position:absolute;
+		height:70%;
+		align-content:center;
+		margin-left:90%;
+	}
+	.HeroScritte{
+		width:90%;
+	}
+	#Hero h1{
+		font-size:2.9rem;
+		line-height:40px;
+	}
+	#Hero h2{
+		margin-top:40px;
+		margin-right:auto;
+		margin-left:auto;
+		width:75%;
+		font-size:1.25rem;
+		font-weight:200;
+	}
+	.h1evi{
+		font-size:3rem;
+	}
+	.container{
+		width:90%;
+	}
+	.container img{
+		display:none;
+	}
+	.container1{
+		width:90%;
+	}
+	#About{
+		scroll-margin-top:100px;
+	}
+	.ASScritte{
+		width:100%;
+	}
+	.ASScritte p{
+		margin-right:0;
+	}
+	.cards-grid {
+		grid-template-columns: 1fr;
+		gap: 24px;
+	}
+	.container2{
+		width:90%;
+	}
+}
