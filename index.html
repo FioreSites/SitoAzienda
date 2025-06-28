@@ -1,160 +1,569 @@
-<html>
-	<head>
-		<title>Home</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-	
-		<!-- NavBar section -->
-		<header id="NavBar">
-			<nav class="NavDesktop">
-				<ul id="NavSX">
-					<li><a href="#About">Chi siamo</a></li>
-					<li><a href="#Servizi">Servizi</a></li>
-				</ul>
-				<a href="#" id="NavLOGO"><h1>Logo Azienda</h1></a>
-				<ul id="NavDX">
-					<li><a href="#Contatti">Assistenza</a></li>
-					<li><a href="index-en.html">🇬🇧</a></li>
-				</ul>
-			</nav>
-			<nav class="NavMobile">
-				<div class="NM1">
-					<div class="NML">
-						<div>
-							<a href="#" id="NavLOGO"><h1>Logo Azienda</h1></a>
-						</div>
-						<div>
-							<ul>
-								<li><a href="#About">Chi siamo</a></li>
-								<li><a href="#Servizi">Servizi</a></li>
-								<li><a href="#Contatti">Assistenza</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="NMF">
-						<a href="index-en.html">🇬🇧</a>
-					</div>
-				</div>
-			</nav>
-		</header>
-		
-		<!-- Hero section -->
-		<section id="Hero">
-			<video autoplay muted loop playsinline poster="fallback.jpg">
-				<source src="./img/aaa.mp4" type="video/mp4">
-			</video>
-			<div class="Hcontainer">
-				<div class="HeroScritte">
-					<h1>Il sito web <span class="h1evi">SEMPLICE</span></br>alla portata di <span class="h1evi">TUTTI</span></h1>
-					<h2>Avere un sito web per la propria attività non è mai stato così fondamentale.</br>La tua azienda non ce l'ha? Tranquillo ci pensiamo noi!</h2>
-					<a href="#About" class="Button1">Scopri di più</a>
-				</div>
-			</div>
-		</section>
-		
-		<!-- About section -->
-		<section id="About">
-			<div class="container">
-				<div class="ASScritte">
-					<h1>Chi siamo</h1>
-					<p>Siamo due ragazzi con una grande passione per la programmazione, da cui è nata la nostra piccola società. La nostra missione è aiutare piccole imprese, artigiani e professionisti a crescere online, realizzando siti web su misura.</p>
-					<p>Crediamo che oggi la presenza sul web sia fondamentale, ma non tutti hanno gli strumenti per affrontarla. Per questo offriamo un servizio completo, curato nei minimi dettagli, dall’idea alla pubblicazione.</p>
-					<p>Puntiamo su un rapporto diretto con i clienti, ascoltando le loro esigenze per creare soluzioni semplici ed efficaci. Per noi, la tecnologia deve essere accessibile a tutti.</p>
-				</div>
-				<img src="./img/wallpaper.jpg" alt="Immagine About">
-			</div>
-		</section>
-		
-		<!-- Section with Cards -->
-		<section id="Servizi">
-			<div class="container1">
-				<h1 class="section-heading">Servizi</h1>
-				<div class="cards-grid">
-					<div class="LinkCard">
-						<div class="card">
-							<img src="./img/wallpaper.jpg" alt="Fresh fruits and breakfast">
-							<h3 class="card-title">Creazione Sito Web</h3>
-							<p class="card-text">Realizziamo siti moderni, responsive e su misura per dare alla tua attività un'immagine professionale e affidabile online.</p>
-							<a href="" class="card-prezzi">Scarica i prezzi</a>
-						</div>
-					</div>
-					<div class="LinkCard">
-						<div class="card">
-							<img src="./img/wallpaper.jpg" alt="Tea and drinks">
-							<h3 class="card-title">Gestione Dominio e Sito</h3>
-							<p class="card-text">Ci occupiamo di tutto: dominio, aggiornamenti e supporto tecnico. Tu pensi al tuo lavoro, noi al tuo sito.</p>
-							<a href="" class="card-prezzi">Scarica i prezzi</a>
-						</div>
-					</div>
-					<div class="LinkCard">
-						<div class="card">
-							<img src="./img/wallpaper.jpg" alt="Wine and food">
-							<h3 class="card-title">Mailing List & Newsletter</h3>
-							<p class="card-text">Ti aiutiamo a restare in contatto con i clienti: newsletter efficaci, iscrizioni facili e comunicazione sempre professionale.</p>
-							<a href="" class="card-prezzi">Scarica i prezzi</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<!-- CTA section -->
-		<section id="CTA">
-			<div class="container2">
-				<h1>La tua nuova avventura sul web comincia qui!</h1>
-				<p>Inviaci una mail specificando dettagli e caratteristiche che vorresti avesse il tuo sito e noi procederemo subito a prepararti, senza impegno, il preventivo giusto per te!</p>
-				<a href="#Contatti" class="Button1">Inizia ora</a>
-			</div>
-		</section>
-		
-		<!-- Contatti e orari section -->
-		<section id="Contatti">
-			<div class="container1">
-				<div class="Aiuto">
-					<h1>Bisogno di aiuto?</h1>
-					<h3>Compila questo form, ti risponderemo appena possibile</h3>
-					<form action="salva.php" method="POST">
-						<div class="FDiv"><label>Nome:</label><input type="text" name="nome" placeholder="Es. Mario Rossi" required class="campo"></div>
-						<div class="FDiv"><label>Email:</label><input type="email" name="email" placeholder="Es. nome@esempio.it" required class="campo"></div>
-						<div class="FDiv"><label>Messaggio:</label><textarea name="messaggio" rows="5" placeholder="Es. Ciao, vorrei informazioni su..." required class="campo"></textarea></div>
-						<div style="text-align:center;"><button type="submit" class="Button1">Invia</button></div>
-					</form>
-				</div>
-				<div class="Orari">
-					<h1>Orari</h1>
-					<ul>
-						<li><span class="heading">Lunedì:</span> 10:00 - 18:00</li>
-						<li><span class="heading">Martedì:</span> 10:00 - 18:00</li>
-						<li><span class="heading">Mercoledì:</span> 10:00 - 18:00</li>
-						<li><span class="heading">Giovedì:</span> 10:00 - 18:00</li>
-						<li><span class="heading">Venerdì:</span> 10:00 - 18:00</li>
-						<li><span class="heading">Sabato:</span> chiuso</li>
-						<li><span class="heading">Domenica:</span> chiuso</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		<footer>
-			<p class="legal"><span class="FH">Logo azienda s.r.l.</span> - via Rambelli, 25 - 48018 Faenza(RA)</br>Cel: 3703160866 - Email: siti.fiorentini@gmail.com</br>C.F./P.IVA 12345678910 - capitale sociale € 1</p>
-			<div class="LegalLinks">
-				<a href="">Privacy policy</a>
-				<a href="">Termini di servizio</a>
-			</div>
-			<p class="copy">&copy 2025 Logo Azienda s.r.l. Tutti i diritti riservati</p>
-		</footer>
-		
-		<script>
-			const header = document.getElementById("NavBar");
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Azienda - Sviluppo Web Professionale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<link rel="alternate" hreflang="it" href="https://esempio.com/"/>
+	<link rel="alternate" hreflang="en" href="https://esempio.com/en/"/>
+</head>
 
-	window.addEventListener("scroll", () => {
-	  if (window.scrollY > 0) {
-		header.classList.add("scrolled");
-	  } else {
-		header.classList.remove("scrolled");
-	  }
-	});
-		</script>
-	</body>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html#" class="logo">Logo Azienda</a>
+            <ul class="nav-links">
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#contact">Contatti</a></li>
+                <li><a href="/en/" style="color: var(--secondary);">🇬🇧 EN</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Il sito web <span class="highlight">semplice</span><br>alla portata di tutti</h1>
+            <p>Sviluppiamo siti web moderni e performanti per far crescere la tua attività online. Design su misura, ottimizzazione SEO e supporto completo.</p>
+            <a href="#services" class="cta-button">
+                <i class="fas fa-rocket"></i>
+                Scopri i Nostri Servizi
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">Chi Siamo</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Esperti in Sviluppo Web</h3>
+                    <p>Siamo specialisti nello sviluppo di siti web moderni e performanti. Con anni di esperienza nel settore, aiutiamo aziende di ogni dimensione a stabilire una presenza online efficace e professionale.</p>
+                    <p>La nostra missione è trasformare le tue idee in soluzioni digitali concrete, utilizzando le tecnologie più avanzate e seguendo le migliori pratiche del settore.</p>
+                    <p>Crediamo in un approccio personalizzato: ogni progetto è unico e merita una soluzione su misura che rispecchi l'identità del tuo brand.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team di sviluppatori al lavoro">
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Progetti Completati</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0%</div>
+                    <div class="stat-label">Clienti Soddisfatti</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Supporto Tecnico</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">I Nostri Servizi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Sviluppo Sito Web</h3>
+                    <p>Siti web responsive e moderni, ottimizzati per tutti i dispositivi. Design personalizzato e performance eccellenti.</p>
+                    <ul class="service-features">
+                        <li>Design responsive e mobile-first</li>
+                        <li>Ottimizzazione SEO</li>
+                        <li>SSL certificate incluso</li>
+                    </ul>
+                    <a href="" class="price-tag">Da €250</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Hosting & Manutenzione</h3>
+                    <p>Gestione completa del tuo sito: hosting affidabile, aggiornamenti di sicurezza e backup automatici.</p>
+                    <ul class="service-features">
+                        <li>Hosting premium con 99.9% uptime</li>
+                        <li>Aggiornamenti di sicurezza</li>
+						<li>Analytics e monitoraggio 24/7</li>
+                        <li>Supporto tecnico</li>
+                    </ul>
+                    <a href="" class="price-tag">Da €200/anno</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Sistema completo per newsletter e comunicazioni automatizzate. Resta in contatto con i tuoi clienti.</p>
+                    <ul class="service-features">
+                        <li>Setup completo sistema email</li>
+                        <li>Analytics dettagliati</li>
+                        <li>Integrazione con il sito web</li>
+                    </ul>
+                    <a href="" class="price-tag">Servizio su richiesta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Pronto a Far Crescere la Tua Attività Online?</h2>
+            <p>Contattaci oggi per una consulenza gratuita e scopri come possiamo trasformare la tua presenza digitale</p>
+            <a href="#contact" class="cta-button-white">
+                <i class="fas fa-comments"></i>
+                Richiedi Preventivo Gratuito
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contattaci</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3>Richiedi un Preventivo</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Descrivi il tuo progetto *</label>
+                            <textarea id="message" name="message" placeholder="Raccontaci di più sul tuo progetto, obiettivi e tempistiche..." required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button" style="width: 100%; justify-content: center;">
+                            <i class="fas fa-paper-plane"></i>
+                            Invia Richiesta
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Informazioni di Contatto</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <strong>Telefono</strong><br>
+                            <span style="color: var(--text-light);">+39 370 316 0866</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>Email</strong><br>
+                            <span style="color: var(--text-light);">info@logoazienda.it</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <strong>Indirizzo</strong><br>
+                            <span style="color: var(--text-light);">Via Rambelli, 25<br>48018 Faenza (RA)</span>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Orari di Lavoro</h3>
+                    <ul class="hours-list">
+                        <li><span class="day">Lunedì - Venerdì</span><span class="time">09:00 - 18:00</span></li>
+                        <li><span class="day">Sabato</span><span class="time">10:00 - 14:00</span></li>
+                        <li><span class="day">Domenica</span><span class="time">Chiuso</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p><strong>Logo Azienda S.r.l.</strong></p>
+                <p>Via Rambelli, 25 - 48018 Faenza (RA)<br>
+                Tel: +39 370 316 0866 | Email: info@logoazienda.it<br>
+                P.IVA: 12345678910 - Capitale Sociale: €1.000</p>
+                
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Termini di Servizio</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                
+                <p class="copyright">&copy; 2025 Logo Azienda S.r.l. - Tutti i diritti riservati</p>
+            </div>
+        </div>
+    </footer>
+	
+	<script>
+		// Navigation scroll effect
+		window.addEventListener('scroll', function() {
+			const navbar = document.getElementById('navbar');
+			if (window.scrollY > 50) {
+				navbar.classList.add('scrolled');
+			} else {
+				navbar.classList.remove('scrolled');
+			}
+		});
+
+		// Smooth scrolling for navigation links
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				const target = document.querySelector(this.getAttribute('href'));
+				if (target) {
+					const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+					window.scrollTo({
+						top: offsetTop,
+						behavior: 'smooth'
+					});
+				}
+			});
+		});
+
+		// Mobile menu toggle
+		const mobileMenu = document.querySelector('.mobile-menu');
+		const navLinks = document.querySelector('.nav-links');
+		const navContainer = document.querySelector('.nav-container');
+
+		mobileMenu.addEventListener('click', function() {
+			this.classList.toggle('active');
+			navLinks.classList.toggle('active');
+			
+			// Animate hamburger menu
+			const spans = this.querySelectorAll('span');
+			if (this.classList.contains('active')) {
+				spans[0].style.transform = 'rotate(45deg) translate(9px, 9px)';
+				spans[1].style.opacity = '0';
+				spans[2].style.transform = 'rotate(-45deg) translate(9px, -9px)';
+			} else {
+				spans[0].style.transform = 'none';
+				spans[1].style.opacity = '1';
+				spans[2].style.transform = 'none';
+			}
+		});
+
+		// Add mobile navigation styles dynamically
+		const style = document.createElement('style');
+		style.textContent = `
+			@media (max-width: 768px) {
+				.nav-links.active {
+					display: flex;
+					flex-direction: column;
+					position: absolute;
+					top: 100%;
+					left: 0;
+					right: 0;
+					background: rgba(10, 14, 39, 0.98);
+					backdrop-filter: blur(20px);
+					padding: 2rem;
+					border-top: 1px solid rgba(255, 255, 255, 0.1);
+					gap: 1.5rem;
+				}
+				
+				.mobile-menu span {
+					transition: all 0.3s ease;
+				}
+			}
+		`;
+		document.head.appendChild(style);
+
+		// Contact form handling
+		const contactForm = document.getElementById('contactForm');
+		if (contactForm) {
+			contactForm.addEventListener('submit', function(e) {
+				e.preventDefault();
+				
+				// Get form data
+				const formData = new FormData(this);
+				const data = {
+					name: formData.get('name'),
+					email: formData.get('email'),
+					phone: formData.get('phone'),
+					message: formData.get('message')
+				};
+				
+				// Simulate form submission (replace with actual endpoint)
+				const submitButton = this.querySelector('button[type="submit"]');
+				const originalText = submitButton.innerHTML;
+				
+				// Show loading state
+				submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Invio in corso...';
+				submitButton.disabled = true;
+				
+				// Simulate API call
+				setTimeout(() => {
+					// Show success message
+					showNotification('Messaggio inviato con successo! Ti risponderemo entro 24 ore.', 'success');
+					
+					// Reset form
+					this.reset();
+					
+					// Reset button
+					submitButton.innerHTML = originalText;
+					submitButton.disabled = false;
+				}, 2000);
+			});
+		}
+
+		// Notification system
+		function showNotification(message, type = 'info') {
+			// Create notification element
+			const notification = document.createElement('div');
+			notification.className = `notification ${type}`;
+			notification.innerHTML = `
+				<div class="notification-content">
+					<i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-info-circle'}"></i>
+					<span>${message}</span>
+					<button class="notification-close">&times;</button>
+				</div>
+			`;
+			
+			// Add notification styles
+			const notificationStyles = `
+				.notification {
+					position: fixed;
+					top: 100px;
+					right: 20px;
+					z-index: 10000;
+					max-width: 400px;
+					padding: 1rem;
+					border-radius: 10px;
+					color: white;
+					font-weight: 500;
+					box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+					transform: translateX(120%);
+					transition: transform 0.3s ease;
+				}
+				
+				.notification.success {
+					background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+				}
+				
+				.notification.info {
+					background: linear-gradient(135deg, #0066ff 0%, #0052cc 100%);
+				}
+				
+				.notification.show {
+					transform: translateX(0);
+				}
+				
+				.notification-content {
+					display: flex;
+					align-items: center;
+					gap: 0.5rem;
+				}
+				
+				.notification-close {
+					background: none;
+					border: none;
+					color: white;
+					font-size: 1.2rem;
+					cursor: pointer;
+					margin-left: auto;
+					opacity: 0.7;
+					transition: opacity 0.2s ease;
+				}
+				
+				.notification-close:hover {
+					opacity: 1;
+				}
+			`;
+			
+			// Add styles if not already added
+			if (!document.querySelector('#notification-styles')) {
+				const styleSheet = document.createElement('style');
+				styleSheet.id = 'notification-styles';
+				styleSheet.textContent = notificationStyles;
+				document.head.appendChild(styleSheet);
+			}
+			
+			// Add to DOM
+			document.body.appendChild(notification);
+			
+			// Show notification
+			setTimeout(() => {
+				notification.classList.add('show');
+			}, 100);
+			
+			// Close button functionality
+			notification.querySelector('.notification-close').addEventListener('click', () => {
+				hideNotification(notification);
+			});
+			
+			// Auto-hide after 5 seconds
+			setTimeout(() => {
+				hideNotification(notification);
+			}, 5000);
+		}
+
+		function hideNotification(notification) {
+			notification.classList.remove('show');
+			setTimeout(() => {
+				if (notification.parentNode) {
+					notification.parentNode.removeChild(notification);
+				}
+			}, 300);
+		}
+
+		// Animate elements on scroll
+		const observerOptions = {
+			threshold: 0.1,
+			rootMargin: '0px 0px -50px 0px'
+		};
+
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('fade-in-up');
+				}
+			});
+		}, observerOptions);
+
+		// Counter animation for stats
+		function animateCounters() {
+			const counters = document.querySelectorAll('.stat-number');
+			counters.forEach(counter => {
+				const target = parseInt(counter.textContent.replace(/\D/g, ''));
+				const increment = target / 100;
+				let current = 0;
+				
+				const updateCounter = () => {
+					if (current < target) {
+						current += increment;
+						if (counter.textContent.includes('%')) {
+							counter.textContent = Math.ceil(current) + '%';
+						} else if (counter.textContent.includes('+')) {
+							counter.textContent = Math.ceil(current) + '+';
+						} else if (counter.textContent.includes('/')) {
+							counter.textContent = '24/7';
+							return;
+						} else {
+							counter.textContent = Math.ceil(current);
+						}
+						requestAnimationFrame(updateCounter);
+					} else {
+						counter.textContent = counter.textContent; // Keep original format
+					}
+				};
+				
+				updateCounter();
+			});
+		}
+
+		// Trigger counter animation when stats section is visible
+		const statsSection = document.querySelector('.stats');
+		if (statsSection) {
+			const statsObserver = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						animateCounters();
+						statsObserver.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.5 });
+			
+			statsObserver.observe(statsSection);
+		}
+
+		// Form validation
+		function validateForm(form) {
+			const inputs = form.querySelectorAll('input[required], textarea[required]');
+			let isValid = true;
+			
+			inputs.forEach(input => {
+				if (!input.value.trim()) {
+					input.style.borderColor = '#ff4757';
+					isValid = false;
+				} else {
+					input.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+				}
+				
+				// Email validation
+				if (input.type === 'email' && input.value.trim()) {
+					const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+					if (!emailRegex.test(input.value)) {
+						input.style.borderColor = '#ff4757';
+						isValid = false;
+					}
+				}
+			});
+			
+			return isValid;
+		}
+
+		// Add input event listeners for real-time validation
+		document.addEventListener('DOMContentLoaded', () => {
+			const formInputs = document.querySelectorAll('#contactForm input, #contactForm textarea');
+			formInputs.forEach(input => {
+				input.addEventListener('input', () => {
+					if (input.value.trim()) {
+						input.style.borderColor = 'var(--primary)';
+					} else {
+						input.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+					}
+				});
+			});
+		});
+
+		// Parallax effect for hero section
+		window.addEventListener('scroll', () => {
+			const scrolled = window.pageYOffset;
+			const hero = document.querySelector('.hero');
+			if (hero) {
+				hero.style.transform = `translateY(${scrolled * 0}px)`;
+			}
+		});
+
+		// Loading animation
+		document.addEventListener('DOMContentLoaded', () => {
+			// Add loading class to body
+			document.body.classList.add('loaded');
+			
+			// Stagger animation for service cards
+			const serviceCards = document.querySelectorAll('.service-card');
+			serviceCards.forEach((card, index) => {
+				card.style.animationDelay = `${index * 0.2}s`;
+			});
+		});
+
+		console.log('🚀 Logo Azienda website loaded successfully!');
+	</script>
 </html>
