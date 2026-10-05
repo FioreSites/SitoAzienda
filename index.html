@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Fiorentini Web Design — Siti web, gestionali e SEO essenziale</title>
+	<meta name="description" content="Fiorentini Web Design realizza siti web, gestionali su misura e SEO essenziale per attività, professionisti e piccole imprese.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Manrope:wght@200;300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<header class="nav" id="nav">
+			<a class="brand" href="#top" aria-label="Fiorentini Web Design, inizio pagina">
+				<img class="logo" src="./img/logo.png" alt="" width="26" height="26">
+				<div><b>Fiorentini</b> <span>Web Design</span></div>
+			</a>
+			<button class="burger" id="burger" aria-label="Apri il menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+		</header>
+
+		<nav class="menu" id="menu" aria-label="Menu principale" inert>
+			<a href="#servizi">Servizi</a>
+			<a href="#approccio">Approccio</a>
+			<a href="#chi-sono">Chi sono</a>
+			<a href="#contatti">Contatti</a>
+			<a href="#contatti">Area clienti</a>
+		</nav>
+
+		<main id="top">
+		<!-- HERO -->
+			<section class="hero" data-tone="dark" id="hero">
+				<div class="ph p4"></div>
+				<!-- Video definitivo: aggiungere <source src="hero.mp4" type="video/mp4"> e poster="hero.jpg" -->
+				<video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+					<source src="./img/hero.mp4" type="video/mp4">
+				</video>
+				<div class="shade"></div>
+				<div class="veil" id="veil"></div>
+				<div class="hero-in" id="heroIn">
+					<div class="wrap">
+						<h1 class="in">Fiorentini<br>Web Design.</h1>
+						<p class="in dd">Progetti digitali per attività che guardano avanti.</p>
+						<a class="ulink-hero" href="#contacts">Diamo forma al tuo progetto <i>&#129042</i></a>
+					</div>
+				</div>
+				<div class="cue" aria-hidden="true"></div>
+			</section>
+
+			<!-- SERVIZI -->
+			<section class="services" id="servizi" data-tone="light">
+				<div class="wrap">
+					<h2 class="lead rv">Il web al servizio della tua attività.<span>Per raccontarla, farti trovare e semplificare il lavoro.</span></h2>
+
+					<div class="cards">
+						<article class="card">
+							<figure>
+								<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph">
+							</figure>
+							<h3>Siti web</h3>
+							<p>Progetti su misura per raccontare il tuo valore e trasformare le visite in nuove opportunità.</p>
+						</article>
+						
+						<article class="card">
+							<figure>
+								<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph">
+							</figure>
+							<h3>Gestionali</h3>
+							<p>Soluzioni su misura per gestire contenuti, richieste e attività con più semplicità.</p>
+						</article>
+						
+						<article class="card">
+							<figure>
+								<img src="https://images.unsplash.com/photo-1633307057722-a4740ba0c5d0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph">
+							</figure>
+							<h3>SEO essenziale</h3>
+							<p>Ottimizzazioni mirate per rendere la tua attività più facile da trovare online.</p>
+						</article>
+						
+					</div>
+				</div>
+			</section>
+
+			<!-- MANIFESTO -->
+			<section class="manifesto dark" data-tone="dark">
+				<h2 class="rv">Ogni attività ha una storia<br>unica da raccontare.</h2>
+				<p class="rv">Il digitale è il nostro modo di raccontarla.</p>
+			</section>
+
+			<!-- VISUAL
+			<section class="visual" id="approccio" data-tone="light">
+				<div class="wrap">
+					<h2 class="rv">Un progetto ben fatto si riconosce nei dettagli, ma soprattutto da ciò che riesce a fare.</h2>
+					<div class="mosaic">
+						<figure class="m1"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph" data-speed=".20"></figure>
+						<figure class="m2"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph" data-speed=".18"></figure>
+						<figure class="m3"><img src="https://images.unsplash.com/photo-1633307057722-a4740ba0c5d0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph" data-speed=".08"></figure>
+					</div>
+				</div>
+			</section>
+			-->
+
+		<!-- ABOUT -->
+			<section class="about" id="chi-sono" data-tone="light">
+				<div class="wrap">
+					<div class="about-text">
+						<h2 class="rv">Ciao.</h2>
+						<div class="who"><strong>Francesco Fiorentini</strong><span>Founder di Fiorentini Web Design</span></div>
+						<p>Fiorentini Web Design nasce per dare forma alle idee e aiutare le attività a comunicare il proprio valore. Ogni progetto prende vita dall'ascolto, con un design curato e una struttura pensata per le persone che lo useranno.</p>
+						<p>Credo in un web concreto, capace di fare la differenza anche nelle piccole cose: farsi trovare, presentarsi con chiarezza, lavorare meglio. Per questo sviluppo soluzioni su misura, con attenzione ai dettagli e agli obiettivi reali di ogni attività.</p>
+						<!-- Firma: inserire <img src="firma.png" alt="Firma di Francesco Fiorentini" loading="lazy"> (PNG trasparente) -->
+						<div class="sig" id="sig"><img src="./img/firma.png" alt="firma"></div>
+					</div>
+					<!-- Ritratto: impostare style="--src:url(ritratto.jpg)" sul div .ph -->
+					<div class="portrait"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="ph" alt="Francesco Fiorentini"></div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section class="cta" id="contatti" data-tone="dark">
+				<div class="cta-bg" aria-hidden="true">
+					<div class="cta-media">
+						<div class="ph p2"></div>
+						<video autoplay muted loop playsinline preload="metadata" poster="./img/cta-poster.jpg">
+							<source src="./img/CTA.mp4" type="video/mp4">
+						</video>
+						<div class="veil"></div>
+					</div>
+				</div>
+
+				<div class="cta-main rv">
+					<h2>Il tuo lavoro,<br>sotto la luce giusta.</h2>
+					<a class="ulink" href="mailto:ciao@fiorentiniwebdesign.com">Diamo forma al tuo progetto <i>&#129042</i></a>
+				</div>
+
+				<footer class="foot">
+					<div class="foot-grid">
+						<div class="f-about">
+							<a class="brand" href="#top" aria-label="Fiorentini Web Design, inizio pagina">
+								<img class="logo" src="./img/logo.png" alt="" width="26" height="26">
+								<div><b>Fiorentini</b> <span>Web Design</span></div>
+							</a>
+							<p>Siti web, gestionali e SEO essenziale per attività che vogliono raccontarsi e farsi trovare.</p>
+
+							  <!-- Social: decommenta quando saranno pronti, un <li> per ciascuno
+							  <ul class="f-social">
+								<li><a href="https://www.instagram.com/..." aria-label="Instagram" target="_blank" rel="noopener">
+								  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><!-- path icona</svg>
+							</a></li>
+								</ul> -->
+						</div>
+
+						<nav class="f-col" aria-label="Navigazione">
+							<h3>Navigazione</h3>
+							<ul>
+								<li><a href="#servizi">Servizi</a></li>
+								<li><a href="#approccio">Approccio</a></li>
+								<li><a href="#chi-sono">Chi sono</a></li>
+								<li><a href="#contatti">Contatti</a></li>
+								<li><a href="/area-clienti">Area clienti</a></li>
+							</ul>
+						</nav>
+
+						<address class="f-col">
+							<h3>Contatti</h3>
+							<ul>
+								<li>Via Rambelli, 25<br>48018 Faenza (RA)</li>
+								<li><a href="tel:+393703160866">+39 370 316 0866</a></li>
+								<li><a href="mailto:info@fiorentiniwebdesign.com">info@fiorentiniwebdesign.com</a></li>
+							</ul>
+						</address>
+					</div>
+
+					<div class="foot-base">
+						<p>© <span id="yr"></span> Fiorentini Web Design · P.IVA 00000000000</p>
+						<nav aria-label="Informazioni legali">
+							<a href="/privacy-policy">Privacy Policy</a>
+							<a href="/cookie-policy" data-cookie-settings>Impostazioni cookie</a>
+						</nav>
+					</div>
+				</footer>
+			</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
